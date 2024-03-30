@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './teacherStudent.css';
 import Google from './Google.png';
+import Student from './student.png';
+import Teacher from './teacher.png';
 
 const CreateAccount = () => {
     const [role, setRole] = useState('');
@@ -18,21 +20,25 @@ const CreateAccount = () => {
         <div className='container-create-account'>
             <div className='left-side'>
                 <h2>Select your role:</h2>
-                <button onClick={() => handleRoleSelection('teacher')}>Teacher</button>
-                <button onClick={() => handleRoleSelection('student')}>Student</button>
+                <button className='role-image' onClick={() => handleRoleSelection('teacher') }>
+                    <img src={Teacher} alt="Teacher" className='role-image' />
+                </button>
+                <button className='role-image' onClick={() => handleRoleSelection('student')}>
+                    <img src={Student} alt="Student" className='role-image' />
+                </button>
             </div>
             <div className='right-side'>
                 <h2>Create Account</h2>
                 <form onSubmit={handleFormSubmit} className='form'>
-                    <input type="text" placeholder="First Name" />
-                    <input type="text" placeholder="Last Name" />
-                    <input type="email" placeholder="Email Address" />
-                    <input type="password" placeholder="Create Password" />
+                    <input type="text" placeholder="First Name" id="fillIn" />
+                    <input type="text" placeholder="Last Name" id="fillIn" />
+                    <input type="email" placeholder="Email Address" id="fillIn" />
+                    <input type="password" placeholder="Create Password" id="fillIn" />
                     <div className='checkbox-label'>   
                         <input type="checkbox" id="terms" />
                         <label for="terms" >I agree to the terms and conditions</label>
                     </div>
-                    <button type="submit">Create Account</button>
+                    <button type="submit" id="submit">Create Account</button>
                     <p>Already have an account? <a href='/login'>Login</a></p>
                     <p>Or</p>
                     <p>Continue with </p>

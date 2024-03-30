@@ -2,41 +2,63 @@
 
 /* Container for the layout */
 .container-create-account {
+    background: linear-gradient(to bottom left, #FFD6D6, #F2BFF6, #AEB6FF);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+button .role-image{
+    width:100px;
+    height:100px;
+}
+
+.role-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    margin: 20px;
+}
+
 /* Left side for selecting teacher or student */
 .left-side {
     flex: 1;
     padding: 20px;
+    width: 35vw;
 }
 
 /* Right side for the account form */
 .right-side {
     flex: 1;
     padding: 20px;
+    width: 65vw;
 }
 
 /* Style for the form */
 .form {
     display: flex;
     flex-direction: column;
+   
 }
 
 /* Style for form inputs */
 .form input {
-    margin-bottom: 10px;
+    margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+
+}
+
+#fillIn {
+    width: 422px;
+    
 }
 
 /* Style for form button */
 .form button {
-    padding: 10px;
+    padding: 15px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -64,4 +86,7 @@ p {
 }
 .socials {
     width: 30%;
+}
+#submit{
+    margin:10px;
 }
