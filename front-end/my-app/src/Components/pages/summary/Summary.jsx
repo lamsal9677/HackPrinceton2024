@@ -12,6 +12,7 @@ const Summary = () => {
 
     return (
         <div className='summary-container' >
+            <h1>Business: Title</h1>
             <div className='videoAndButtons'>
                 {/* Lecture Video */}
                 <video src="path_to_lecture_video" controls className='video-section'/>
