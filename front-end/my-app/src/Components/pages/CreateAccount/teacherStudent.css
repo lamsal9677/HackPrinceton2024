@@ -53,3 +53,15 @@
 .form .checkbox-label input[type="checkbox"] {
     margin-right: 10px;
 }
+
+p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.social-media-create {
+    margin:0;
+}
+.socials {
+    width: 30%;
+}

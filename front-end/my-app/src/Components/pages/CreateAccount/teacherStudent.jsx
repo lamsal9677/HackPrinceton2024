@@ -34,10 +34,10 @@ const CreateAccount = () => {
                     </div>
                     <button type="submit">Create Account</button>
                     <p>Already have an account? <a href='/login'>Login</a></p>
+                    <p>Or</p>
                     <p>Continue with </p>
-                    <div className='social-media'>
-                        <button><img src={Google} alt="Google" /></button>
-                        <button>Facebook</button>
+                    <div className='social-media-create'>
+                        <img src={Google} alt="Google" className='socials' />
                     </div>
                     
                 </form>
