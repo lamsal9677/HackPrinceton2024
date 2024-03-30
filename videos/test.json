@@ -1,0 +1,59 @@
+{
+    "summary": [
+        "Stress is a normal part of life and can have both positive and negative impacts on us.",
+        "Coping with stress effectively can lead to a sense of pride and motivation.",
+        "Excessive and prolonged stress can result in various physical and emotional consequences.",
+        "Taking care of our mental and physical well-being is essential in managing stress.",
+        "Training our bodies and minds can help us cope with stress and benefit both ourselves and those around us."
+    ],
+    "questions": [
+        {
+            "questionID": 1,
+            "question": "What are some effects of prolonged stress?",
+            "choices": [
+                "A) Increased heart rate and irritability",
+                "B) Improved concentration and relaxation",
+                "C) Enhanced social relationships",
+                "D) Boosted immunity and energy levels"
+            ],
+            "ans": "a",
+            "keywords": [
+                "prolonged stress",
+                "effects",
+                "heart rate"
+            ]
+        },
+        {
+            "questionID": 2,
+            "question": "Why is it important to cope with stress effectively?",
+            "choices": [
+                "A) To develop conflicts with others",
+                "B) To experience nervousness and irritability",
+                "C) To feel pride and motivation",
+                "D) To increase stress levels"
+            ],
+            "ans": "c",
+            "keywords": [
+                "cope with stress",
+                "importance",
+                "pride"
+            ]
+        },
+        {
+            "questionID": 3,
+            "question": "What can help in managing stress?",
+            "choices": [
+                "A) Neglecting mental and physical well-being",
+                "B) Avoiding any form of exercise",
+                "C) Training bodies and minds",
+                "D) Increasing conflict with others"
+            ],
+            "ans": "c",
+            "keywords": [
+                "managing stress",
+                "training",
+                "bodies and minds"
+            ]
+        }
+    ]
+}
