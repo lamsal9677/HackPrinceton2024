@@ -1,0 +1,55 @@
+/* CSS code for teacherStudent.css */
+
+/* Container for the layout */
+.container-create-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Left side for selecting teacher or student */
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Right side for the account form */
+.right-side {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style for the form */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for form inputs */
+.form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for form button */
+.form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for checkbox and label */
+.form .checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.form .checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
+}

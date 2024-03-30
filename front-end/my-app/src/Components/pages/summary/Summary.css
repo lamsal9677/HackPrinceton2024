@@ -1,0 +1,67 @@
+/* Summary container */
+.summary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.videoAndButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.quizAndButtons{
+    display: flex;
+    flex-direction: column;
+    margin : 50px;
+}
+
+.summary-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    flex-grow: 0;
+    justify-content: space-between;
+    height: 80px;
+}
+
+/* Video section */
+.video-section {
+    flex: 1;
+    margin-right: 20px;
+    height: 480px;
+    width: 640px;
+    margin : 50px;
+}
+
+/* Related article/recommendation section */
+.related-section {
+    flex: 1;
+    height: 300px;
+}
+
+.quiz-button{
+    width:50%;
+    margin: 10px;
+}
+
+.summarize-pdf-section{
+    width:50%;
+    margin: 10px;
+}
+
+/* Summarize PDF section */
+.summarize-pdf-section {
+    flex: 1;
+}
+
+/* Summarized bullet points */
+.summarized-bullet-points {
+    margin: 50px;
+}
