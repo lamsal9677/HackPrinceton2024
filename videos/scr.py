@@ -5,7 +5,7 @@ from openai import OpenAI
 import json
 
 model = whisper.load_model("base")
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 result = model.transcribe("mental.mp4")
 print(result["text"])
