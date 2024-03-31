@@ -3,6 +3,7 @@ import './teacherStudent.css';
 import Google from './Google.png';
 import Student from './student.png';
 import Teacher from './teacher.png';
+import { Link } from 'react-router-dom';
 
 const CreateAccount = () => {
     const [role, setRole] = useState('');
@@ -38,8 +39,10 @@ const CreateAccount = () => {
                         <input type="checkbox" id="terms" />
                         <label for="terms" >I agree to the terms and conditions</label>
                     </div>
+                    <Link to='/login'>
                     <button type="submit" id="submit">Create Account</button>
-                    <p>Already have an account? <a href='/login'>Login</a></p>
+                    </Link>
+                    <p>Already have an account? <Link to='/login'>Login</Link></p>
                     <p>Or</p>
                     <p>Continue with </p>
                     <div className='social-media-create'>

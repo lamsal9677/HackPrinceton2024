@@ -22,7 +22,7 @@ const Summary = () => {
             <h1>Business: Title</h1>
             <div className='videoAndButtons'>
                 {/* Lecture Video */}
-                <video src="https://www.youtube.com/watch?v=x_58CnqwCSk" controls className='video-section' />
+                <iframe src="https://www.youtube.com/embed/x_58CnqwCSk" title="Lecture Video" className='video-section' allowFullScreen />
                 <div className='quizAndButtons'>
                     {/* Related Articles/Recommendations */}
                     <div className='related-section'>
@@ -47,10 +47,11 @@ const Summary = () => {
                 <div className='summarized-bullet-points'>
                     <h2>Lecture Summary</h2>
                     <ul>
-                        <li>Summary point 1</li>
-                        <li>Summary point 2</li>
-                        <li>Summary point 3</li>
-                        
+                        <li> Stress is a normal part of life and can have both positive and negative impacts on us.</li>
+                        <li> Coping with stress effectively can lead to a sense of pride and motivation.</li>
+                        <li> Excessive and prolonged stress can result in various physical and emotional consequences.</li>
+                        <li>Taking care of our mental and physical well-being is essential in managing stress.</li>
+                        <li>Training our bodies and minds can help us cope with stress and benefit both ourselves and those around us."</li>
                     </ul>
             </div>
             }

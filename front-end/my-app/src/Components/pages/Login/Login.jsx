@@ -1,6 +1,8 @@
 import React from 'react';
 import './Login.css';
 import Google from '../../pages/CreateAccount/Google.png';
+import { Link } from 'react-router-dom';
+
 
 const Login = () => {
     const handleLoginSubmit = (event) => {
@@ -14,7 +16,9 @@ const Login = () => {
                 <input type="email" placeholder="Email" id="fillIn" />
                 <input type="password" placeholder="Password" id="fillIn"  />
             </form>
+            <Link to='/Summary'>
             <button type="submit" id="submit">Login</button>
+            </Link>
             <p>Continue with </p>
             <div className='social-media'>
                 <img src={Google} alt="Google" className='socials' />
