@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './quiz.css';
 
 const Quiz = () => {
     const [questions, setQuestions] = useState([]);
@@ -55,25 +56,27 @@ const Quiz = () => {
     };
 
     return (
-        <div>
+        <div className='quiz-container'>
             <h1>Quiz</h1>
             {questions.map((question) => (
                 <div key={question.questionID}>
-                    <h3>{question.question}</h3>
-                    {question.choices.map((choice, index) => (
-                        <label key={index}>
-                            <input
-                                type="radio"
-                                name={`question-${question.questionID}`}
-                                value={choice}
-                                onChange={() => handleAnswerChange(question.questionID, choice)}
-                            />
-                            {choice}
-                        </label>
-                    ))}
+                    <h3 className='question'>{question.question}</h3>
+                    <div className='answer'>
+                        {question.choices.map((choice, index) => (
+                            <label key={index}>
+                                <input
+                                    type="radio"
+                                    name={`question-${question.questionID}`}
+                                    value={choice}
+                                    onChange={() => handleAnswerChange(question.questionID, choice)}
+                                />
+                                {choice}
+                            </label>
+                        ))}
+                    </div>
                 </div>
             ))}
-            <button onClick={handleSubmit}>Submit</button>
+            <button className='submit-button' onClick={handleSubmit}>Submit</button>
         </div>
     );
 };
